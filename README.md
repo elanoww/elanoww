@@ -35,6 +35,26 @@
       color: #005aab;
     }
 
+    .kontak {
+      background-color: #005aab;
+      color: white;
+      padding: 10px;
+      border-radius: 8px;
+      margin-top: 20px;
+      display: inline-block;
+      text-align: left;
+    }
+
+    .kontak p {
+      margin: 8px 0;
+    }
+
+    .kontak img {
+      width: 20px;
+      vertical-align: middle;
+      margin-right: 8px;
+    }
+
     main {
       max-width: 900px;
       margin: 30px auto;
@@ -78,8 +98,23 @@
 <body>
 
   <header>
-    <img src="https://drive.google.com/uc?export=view&id=16HbIW-3zJALUhaQbTGHNr6gtJeSsnv7j" alt="Foto Saya">
+    <img src="https://drive.google.com/uc?export=view&id=1KopON6QtyrRNGJ-LnWiesb5ysk7Y4tBi" alt="Foto Saya">
     <h1>Profil Saya</h1>
+
+    <div class="kontak">
+      <p>
+        <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram"> 
+        Instagram: @elanovrt
+      </p>
+      <p>
+        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn"> 
+        LinkedIn: Valgen Hafis
+      </p>
+      <p>
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email"> 
+        Gmail: valgen05@gmail.com
+      </p>
+    </div>
   </header>
 
   <main>
